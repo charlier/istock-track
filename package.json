@@ -1,0 +1,20 @@
+{
+  "name": "istock-track",
+  "version": "1.0.0",
+  "description": "Check Apple White City for Black iPhones",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "eslint": "eslint index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.1.0",
+    "https": "^1.0.0",
+    "node-notifier": "^4.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.5.0"
+  }
+}
